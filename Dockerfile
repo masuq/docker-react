@@ -6,7 +6,7 @@ COPY . .
 RUN npm run build
 
 FROM nginx
-# Update the package list and install net-tools check 
+# New Update the package list and install net-tools check 
 RUN apt-get update && apt-get install -y net-tools
 
 # Clean up to reduce image size
