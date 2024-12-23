@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_MUHAMMAD')  // Replace with your Jenkins credential ID
+        AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_MUHAMMAD')  // Replace with your Jenkins credential ID vreated
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_KEY_MUHAMMAD')  // Replace with your Jenkins credential ID
     }
 
